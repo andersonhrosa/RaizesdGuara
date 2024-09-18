@@ -1,8 +1,6 @@
 ## RaizesdGuara
 Projeto integrador da ProzEdu da Equipe 3
-<div align= "center">
-  <img src= ![Apresentação Horta Orgânica Raizes d'Guara pptx](https://github.com/user-attachments/assets/b0936973-86e5-4262-8894-cea07bb67ec5) />
-</div>
+[].(
 
 # Integrantes: 
 Anderson Rosa, 
