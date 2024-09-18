@@ -1,6 +1,8 @@
 ## RaizesdGuara
 Projeto integrador da ProzEdu da Equipe 3
 
+![Iamgem de Folhas](https://github.com/andersonhrosa/RaizesdGuara/commit/b8e13207130bac68953a2e15a9f3521979dec281)
+
 
 # Integrantes: 
 Anderson Rosa, 
