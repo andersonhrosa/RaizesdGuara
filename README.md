@@ -1,6 +1,11 @@
 ## RaizesdGuara
 Projeto integrador da ProzEdu da Equipe 3
 
+# Integrantes: 
+Anderson Rosa
+Gabrielly Colman
+Leide Dias
+
 # Apresentação
 [Raízes d' Guará](https://docs.google.com/presentation/d/1bqFE9UTjguwtpjMEDPGXUrAo2WouNxMH/edit#slide=id.p1)
 
