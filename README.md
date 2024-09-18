@@ -2,8 +2,8 @@
 Projeto integrador da ProzEdu da Equipe 3
 
 # Integrantes: 
-Anderson Rosa
-Gabrielly Colman
+Anderson Rosa, 
+Gabrielly Colman e 
 Leide Dias
 
 # Apresentação
