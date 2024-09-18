@@ -1,4 +1,4 @@
-# RaizesdGuara
+# Raízes d'Guara
 Projeto integrador da ProzEdu da Equipe 3
 
 
