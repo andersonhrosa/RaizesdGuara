@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2E2E2E;
+}
+
+.flex-container, header {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 10 1em;
+    padding: 10;
+}
+
+.flex-container li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+input {
+    margin-bottom: 1em;
+    width: 100%;
+    
+}
+
+input {
+    padding: 0.5em;
+    box-sizing: border-box;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 1em;
+    margin: 10px;
+}
+
+.right-left {
+    background-color: #7EACB5;
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.img-banner {
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.img-banner img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.img-pn{
+    margin-right: 20px;
+}
+
+img {
+    padding: 0.5em 1em;
+    width: 300px;
+}
+
+footer {
+    background-color: #7EACB5;
+    color: #2E2E2E;
+    text-align: center;
+    padding: 1em 0;
+}
