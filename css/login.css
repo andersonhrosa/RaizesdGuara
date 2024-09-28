@@ -1,11 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    padding: 0;
+    color: #2E2E2E;
 }
 
 .login-container {
@@ -15,6 +12,11 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centraliza verticalmente */
 }
 
 .login-container h2 {
@@ -59,7 +61,6 @@ body {
     text-decoration: underline;
 }
 
-
 .flex-container, header {
     display: flex;
     justify-content: center;
@@ -79,4 +80,7 @@ footer {
     color: #2E2E2E;
     text-align: center;
     padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
