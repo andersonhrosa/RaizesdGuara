@@ -84,12 +84,53 @@ body {
     padding: 0.5em 1em;
 }
 
-footer {
+/* footer */
+
+.rodape {
     background-color: #7EACB5;
     color: #2E2E2E;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.icones {
+    padding: 10px;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #2E2E2E;
+}
+
+.detalhe-rodape{
+    padding: 0 5px;
+    width: 1.5px;
+}
+
+.listas-container {
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.lista-rodade_left, .lista-rodade_right {
+    list-style: none; 
+    padding-left: 10em; 
+    margin: 0; 
+    text-align: left;
+}
+
+.lista-rodade_left li, .lista-rodade_right li {
+    margin-bottom: 10px; 
+    padding-right: 10em;
+    padding-bottom: 20px;
+}
+
+main {
+    min-height: 100vh; 
+    padding-bottom: 60px; 
 }

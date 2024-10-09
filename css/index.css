@@ -9,8 +9,8 @@ body {
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin: 10 1em;
-    padding: 10;
+    margin: 10px 1em; /* Corrigido: adicionado 'px' como unidade */
+    padding: 10px;
 }
 
 .flex-container li a {
@@ -29,17 +29,14 @@ p {
     margin: 10px;
 }
 
-
 input {
     margin-bottom: 1em;
-    width: 100%;
-    
-}
-
-input {
     padding: 0.5em;
+    width: 100%;
     box-sizing: border-box;
 }
+
+/* Classes para banner e imagem */
 
 .banner {
     display: flex;
@@ -52,6 +49,7 @@ input {
     background-color: #7EACB5;
     display: flex;
     align-items: center; /* Alinha verticalmente ao centro */
+    padding: 1em; /* Padding interno para melhor espaçamento */
 }
 
 .img-banner {
@@ -63,18 +61,85 @@ input {
     height: auto; /* Mantém a proporção da imagem */
 }
 
-.img-pn{
+.img-pn {
     margin-right: 20px;
 }
 
-img {
+.banner-img {
     padding: 0.5em 1em;
     width: 300px;
 }
 
-footer {
+.container-btn {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 10vh; /* Ajusta a altura conforme necessário */
+}
+
+.btn {
+    padding: 8px 16px; /* Botão menor */
+    background-color: #253A3E; /* Fundo verde */
+    color: #CDF1F8; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    display: inline-block; /* Impede o botão de se comportar como um bloco de largura total */
+    width: auto; /* O botão terá o tamanho baseado no conteúdo */
+    min-width: 150px; /* Largura mínima opcional para não ficar muito pequeno */
+    max-width: 300px; /* Largura máxima opcional, ajuste conforme necessário */
+}
+
+/* footer */
+
+.rodape {
     background-color: #7EACB5;
     color: #2E2E2E;
     text-align: center;
-    padding: 1em 0;
+    padding: 0.5em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.icones {
+    padding: 10px;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: #2E2E2E;
+}
+
+.detalhe-rodape{
+    padding: 0 5px;
+    width: 1.5px;
+}
+
+.listas-container {
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.lista-rodade_left, .lista-rodade_right {
+    list-style: none; 
+    padding-left: 10em; 
+    margin: 0; 
+    text-align: left;
+}
+
+.lista-rodade_left li, .lista-rodade_right li {
+    margin-bottom: 10px; 
+    padding-right: 10em;
+    padding-bottom: 20px;
+}
+
+main {
+    min-height: 100vh; 
+    padding-bottom: 60px; 
 }
