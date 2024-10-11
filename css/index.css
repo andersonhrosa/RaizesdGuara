@@ -1,42 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
     color: #2E2E2E;
 }
 
-.flex-container, header {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    margin: 10px 1em; /* Corrigido: adicionado 'px' como unidade */
-    padding: 10px;
-}
+/*header menu */
 
-.flex-container li a {
-    color: black;
-    text-decoration: none;
-    padding: 0.5em 1em;
-}
-
-h1,
-h2 {
-    text-align: center;
-}
-
-p {
-    padding: 10px;
-    margin: 10px;
-}
-
-input {
-    margin-bottom: 1em;
-    padding: 0.5em;
-    width: 100%;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/* Classes para banner e imagem */
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px; 
+    border-bottom: 2px solid #7EACB5;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px; 
+    height: 70px;
+}
+
+.menu-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-nav ul li {
+    margin-right: 40px; 
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #2E2E2E;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-nav ul li a:hover {
+    color: #7EACB5;
+    text-decoration: underline; 
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn a{
+    background-color: #7aabb5; 
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px; 
+    height: 25px;
+    margin-left: 15px;
+}
+
+.login-btn {
+    background-color: #7aabb5;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 40px;
+    height: 25px;
+}
+.login-btn {
+    background-color: #7aabb5;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: #7aabb5;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+/* fim do menu */
+
+/* banner e imagens */
 
 .banner {
     display: flex;
@@ -48,17 +165,17 @@ input {
 .right-left {
     background-color: #7EACB5;
     display: flex;
-    align-items: center; /* Alinha verticalmente ao centro */
-    padding: 1em; /* Padding interno para melhor espaçamento */
+    align-items: center; 
+    padding: 1em; 
 }
 
 .img-banner {
-    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    margin-right: 20px; 
 }
 
 .img-banner img {
-    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
-    height: auto; /* Mantém a proporção da imagem */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .img-pn {
@@ -72,25 +189,25 @@ input {
 
 .container-btn {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 10vh; /* Ajusta a altura conforme necessário */
+    justify-content: center; 
+    align-items: center; 
+    height: 10vh; 
 }
 
 .btn {
-    padding: 8px 16px; /* Botão menor */
-    background-color: #253A3E; /* Fundo verde */
-    color: #CDF1F8; /* Texto branco */
+    padding: 8px 16px; 
+    background-color: #253A3E;
+    color: #CDF1F8; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
     text-align: center;
     transition: background-color 0.3s ease;
-    display: inline-block; /* Impede o botão de se comportar como um bloco de largura total */
-    width: auto; /* O botão terá o tamanho baseado no conteúdo */
-    min-width: 150px; /* Largura mínima opcional para não ficar muito pequeno */
-    max-width: 300px; /* Largura máxima opcional, ajuste conforme necessário */
+    display: inline-block; 
+    width: auto; 
+    min-width: 150px; 
+    max-width: 300px; 
 }
 
 /* footer */

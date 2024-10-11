@@ -1,17 +1,155 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
     color: #2E2E2E;
 }
 
-.flex-container, header {
+/*header menu */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px; 
+    border-bottom: 2px solid #7EACB5;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 200px; 
+    height: 70px;
+}
+
+.menu-nav {
     display: flex;
     justify-content: center;
-    list-style-type: none;
-    margin: 10 1em;
-    padding: 10;
+    flex-grow: 1;
 }
+
+.menu-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-nav ul li {
+    margin-right: 40px; 
+}
+
+.menu-nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #2E2E2E;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu-nav ul li a:hover {
+    color: #7EACB5;
+    text-decoration: underline; 
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn a{
+    background-color: #7aabb5; 
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px; 
+    height: 25px;
+    margin-left: 15px;
+}
+
+.login-btn {
+    background-color: #7aabb5;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 40px;
+    height: 25px;
+}
+.login-btn {
+    background-color: #7aabb5;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.login-btn {
+    background-color: #7aabb5;
+    color: #2E2E2E;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px;
+    height: 25px;
+}
+
+/* fim do menu */
 
 .login-container {
     background-color: #7EACB5;
