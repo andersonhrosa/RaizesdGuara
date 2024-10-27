@@ -153,9 +153,41 @@ body {
 
 /* fim do menu */
 
-/*main */
+/*main ponto de coleta */
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2E2E2E;
+}
 
-/*fim da main*/
+h1, h3 {
+    text-align: center;
+    margin: 0.5em 0;
+    color: #7EACB5
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+ .mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+/*fim da main ponto de coleta */
 
 
 /* footer */
