@@ -5,6 +5,10 @@ body {
     margin: 0;
     padding: 0;
     color: #2E2E2E;
+    overflow-y: auto; /* Habilita a rolagem vertical */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /*header menu */
@@ -84,7 +88,6 @@ body {
 .cart-icon img {
     width: 25px; 
     height: 25px;
-    margin-left: 15px;
 }
 
 .login-btn {
@@ -152,6 +155,12 @@ body {
 }
 
 /* fim do menu */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .login-container {
     background-color: #7EACB5;
@@ -160,11 +169,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
-    margin: 0 auto; /* Centraliza horizontalmente */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Centraliza verticalmente */
+    margin: auto; /* Centraliza horizontalmente */
 }
 
 .login-container h2 {
@@ -203,7 +208,7 @@ body {
     margin-top: 15px;
     color: #001831;
     text-decoration: none;
-    font-size: 13px; /* Assuming the original size was 14px */
+    font-size: 13px; 
 }
 
 .register-link:hover {
@@ -224,7 +229,6 @@ body {
     padding: 0.5em 1em;
 }
 
-
 /* footer */
 
 .rodape {
@@ -232,7 +236,7 @@ body {
     color: #2E2E2E;
     text-align: center;
     padding: 0.5em 0;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
@@ -247,31 +251,25 @@ li, a {
     color: #2E2E2E;
 }
 
-.detalhe-rodape{
+.detalhe-rodape {
     padding: 0 5px;
     width: 1.5px;
 }
 
 .listas-container {
     display: flex;
-    justify-content: space-between; 
-
+    justify-content: space-between;
 }
 
 .lista-rodade_left, .lista-rodade_right {
-    list-style: none; 
-    padding-left: 10em; 
-    margin: 0; 
+    list-style: none;
+    padding-left: 10em;
+    margin: 0;
     text-align: left;
 }
 
 .lista-rodade_left li, .lista-rodade_right li {
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     padding-right: 10em;
     padding-bottom: 20px;
-}
-
-main {
-    min-height: 100vh; 
-    padding-bottom: 60px; 
 }
