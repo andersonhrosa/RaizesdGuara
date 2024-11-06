@@ -208,7 +208,7 @@ section p {
     color: #333;
 }
 
-.contato-form input[type="email"],
+.contato-form input[type="text"],
 .contato-form textarea {
     width: 100%;
     padding: 15px;
@@ -263,6 +263,39 @@ section p {
     max-width: 300px; 
 }
  /*fim da manin */
+
+ .helper-text {
+    display: none;
+    font-size: .8rem;
+
+  }
+ .error {
+    color: darkred;
+  }
+
+  .success {
+    color: darkgreen;
+  }
+
+ /* ---------- Estilos dinâmicos ---------- */
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 50;
+    right: 50;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+
+  
+  .visible {
+    display: block;
+  }
 
 /* footer */
 

@@ -49,12 +49,14 @@
 
         <section class="form-section">
             <div class="form-container">
-                <form class="contato-form">
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+                <form id="contato-form" class="contato-form">
+                    <label for="email">*E-mail:</label>
+                    <input type="text" id="email" name="email" placeholder="seuemail@exemplo.com">
+                    <p id="email-helper" class="helper-text ">Mensagem de ajuda</p>
 
                     <label for="message">Mensagem:</label>
-                    <textarea id="message" placeholder="Escreva sua mensagem." required></textarea>
+                    <textarea id="message" placeholder="Escreva sua mensagem."></textarea>
+                    <p id="mensagem-helper" class="helper-text ">Mensagem de ajuda</p>
                     <input class="btn-enviar" type="submit" value="Enviar">
                 </form>
             </div>
