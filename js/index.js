@@ -25,7 +25,7 @@ function updateBanner() {
             img.style.transform = 'scale(0.8)';
         }
 
-        img.style.margin = '0 10px'; // Add margin to each image
+        img.style.margin = '0 10px'; 
 
         banner.appendChild(img);
     }
