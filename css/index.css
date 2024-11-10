@@ -162,24 +162,38 @@ body {
     margin: 10px;
 }
 
+
 .right-left {
     background-color: #7EACB5;
     display: flex;
     align-items: center; 
     padding: 1em; 
+    justify-content: flex-start; /* Align items to the left */
 }
 
 .img-banner {
-    margin-right: 20px; 
+    margin-left: 10%; /* Position the image 10% from the left of the container */
+    transform: scale(2); /* Increase the size by 50% */
+    margin-top: 10%; /* Position the image 5% down from the current position */
+}
+
+.sobre {
+    display: flex;
+    align-items: flex-start; /* Align items to the start (top) */
+    padding: 0.5em 1em;
+    margin: 10px;
+    flex-direction: column; /* Stack h1 and p vertically */
+}
+
+.sobre h1, .sobre p {
+    text-align: left; /* Align text to the left */
+    margin-left: 15%; /* Add margin to the left to ensure text stays to the right of the image */
 }
 
 .img-banner img {
-    max-width: 100%; 
+    max-width: 100%; /* Adjusted to keep the image 10% to the right */
     height: auto; 
-}
-
-.img-pn {
-    margin-right: 20px;
+    margin-left: 20%; /* Ensure the image stays 10% from the left */
 }
 
 .banner-img {
@@ -193,6 +207,14 @@ body {
     align-items: center; 
     height: 10vh; 
 }
+
+.img-pn{
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    margin-left: 60%;
+}
+
 
 .btn {
     padding: 8px 16px; 
