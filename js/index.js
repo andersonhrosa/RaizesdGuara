@@ -18,12 +18,14 @@ function updateBanner() {
         img.classList.add('banner-img');
 
         if (i === 0) {
-            img.style.transform = 'scale(1.2)'; 
+            img.style.transform = 'scale(1.2)';
         } else if (i === -1 || i === 1) {
-            img.style.transform = 'scale(1)'; 
+            img.style.transform = 'scale(1)';
         } else {
-            img.style.transform = 'scale(0.8)'; 
+            img.style.transform = 'scale(0.8)';
         }
+
+        img.style.margin = '0 10px'; // Add margin to each image
 
         banner.appendChild(img);
     }

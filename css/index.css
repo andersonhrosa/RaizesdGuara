@@ -94,7 +94,8 @@ body {
 .banner {
     display: flex;
     justify-content: center;
-    padding: 0.5em 1em;
+    align-items: center;
+    padding: 0.5em 10px;
     margin: 10px;
     position: relative; 
     padding-bottom: 60px;
