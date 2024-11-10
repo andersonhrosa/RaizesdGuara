@@ -96,21 +96,8 @@ body {
     justify-content: center;
     padding: 0.5em 1em;
     margin: 10px;
-    position: relative; /* Added to position buttons */
-}
-
-.right-left {
-    background-color: #7EACB5;
-    display: flex;
-    align-items: center; 
-    padding: 1em; 
-    justify-content: flex-start; 
-}
-
-.img-banner {
-    margin-left: 10%; 
-    transform: scale(2); 
-    margin-top: 10%; 
+    position: relative; 
+    padding-bottom: 60px;
 }
 
 .prev-btn, .next-btn {
@@ -141,6 +128,21 @@ body {
 
 .prev-btn:hover, .next-btn:hover {
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.right-left {
+    background-color: #7EACB5;
+    display: flex;
+    align-items: center; 
+    padding: 1em; 
+    justify-content: flex-start; 
+}
+
+.img-banner {
+    margin-left: 10%; 
+    transform: scale(2); 
+    margin-top: 10%; 
 }
 
 .sobre {
@@ -247,6 +249,7 @@ li, a {
 }
 
 main {
+    padding-top: 60px;
     min-height: 100vh; 
     padding-bottom: 60px; 
 }
