@@ -131,6 +131,16 @@ body {
     align-items: center;
 }
 
+.login-btn:hover {
+    background-color: #5c929d;
+}
+
+.cart-icon img {
+    width: 25px; 
+    height: 25px;
+    margin-left: 15px;
+}
+
 .login-btn {
     background-color: #7aabb5;
     color: #2E2E2E;
@@ -140,15 +150,6 @@ body {
     margin-right: 20px;
     font-weight: bold;
     transition: background-color 0.3s;
-}
-
-.login-btn:hover {
-    background-color: #5c929d;
-}
-
-.cart-icon img {
-    width: 25px;
-    height: 25px;
 }
 
 /* fim do menu */

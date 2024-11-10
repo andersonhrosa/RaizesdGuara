@@ -68,16 +68,6 @@ body {
     align-items: center;
 }
 
-.login-btn a{
-    background-color: #7aabb5; 
-    color: #2E2E2E;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
 .login-btn:hover {
     background-color: #5c929d;
 }
@@ -97,59 +87,6 @@ body {
     margin-right: 20px;
     font-weight: bold;
     transition: background-color 0.3s;
-}
-
-.login-btn:hover {
-    background-color: #5c929d;
-}
-
-.cart-icon img {
-    width: 40px;
-    height: 25px;
-}
-.login-btn {
-    background-color: #7aabb5;
-    color: #2E2E2E;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.login-btn:hover {
-    background-color: #5c929d;
-}
-
-.cart-icon img {
-    width: 25px;
-    height: 25px;
-}
-
-.menu-right {
-    display: flex;
-    align-items: center;
-}
-
-.login-btn {
-    background-color: #7aabb5;
-    color: #2E2E2E;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-right: 20px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.login-btn:hover {
-    background-color: #5c929d;
-}
-
-.cart-icon img {
-    width: 25px;
-    height: 25px;
 }
 
 /* fim do menu */
