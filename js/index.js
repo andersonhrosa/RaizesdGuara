@@ -1,33 +1,44 @@
-let currentIndex = 2;
-const images = document.querySelectorAll('.banner-img');
+const images = [
+    'img/index/home1.png',
+    'img/index/home2.png',
+    'img/index/home3.png',
+    'img/index/home4.png',
+    'img/index/home5.png'
+];
 
-function updateImages() {
-    images.forEach((img, index) => {
-        img.classList.remove('center', 'left', 'right', 'far-left', 'far-right');
-        if (index === currentIndex) {
-            img.classList.add('center');
-        } else if (index === (currentIndex - 1 + images.length) % images.length) {
-            img.classList.add('left');
-        } else if (index === (currentIndex + 1) % images.length) {
-            img.classList.add('right');
-        } else if (index === (currentIndex - 2 + images.length) % images.length) {
-            img.classList.add('far-left');
-        } else if (index === (currentIndex + 2) % images.length) {
-            img.classList.add('far-right');
+let currentIndex = 2;
+
+function updateBanner() {
+    const banner = document.querySelector('.banner');
+    banner.innerHTML = '';
+
+    for (let i = -2; i <= 2; i++) {
+        const img = document.createElement('img');
+        img.src = images[(currentIndex + i + images.length) % images.length];
+        img.classList.add('banner-img');
+
+        if (i === 0) {
+            img.style.transform = 'scale(1.5)';
+        } else if (i === -1 || i === 1) {
+            img.style.transform = 'scale(1.2)';
+        } else {
+            img.style.transform = 'scale(1)';
         }
-    });
+
+        banner.appendChild(img);
+    }
 }
 
 function prevImage() {
     currentIndex = (currentIndex - 1 + images.length) % images.length;
-    updateImages();
+    updateBanner();
 }
 
 function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;
-    updateImages();
+    updateBanner();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    updateImages();
+    updateBanner();
 });
