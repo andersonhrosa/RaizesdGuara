@@ -168,37 +168,36 @@ body {
     display: flex;
     align-items: center; 
     padding: 1em; 
-    justify-content: flex-start; /* Align items to the left */
+    justify-content: flex-start; 
 }
 
 .img-banner {
-    margin-left: 10%; /* Position the image 10% from the left of the container */
-    transform: scale(2); /* Increase the size by 50% */
-    margin-top: 10%; /* Position the image 5% down from the current position */
+    margin-left: 10%; 
+    transform: scale(2); 
+    margin-top: 10%; 
 }
 
 .sobre {
     display: flex;
-    align-items: flex-start; /* Align items to the start (top) */
+    align-items: flex-start; 
     padding: 0.5em 1em;
     margin: 10px;
-    flex-direction: column; /* Stack h1 and p vertically */
+    flex-direction: column; 
 }
 
 .sobre h1, .sobre p {
-    text-align: left; /* Align text to the left */
-    margin-left: 15%; /* Add margin to the left to ensure text stays to the right of the image */
-}
-
-.img-banner img {
-    max-width: 100%; /* Adjusted to keep the image 10% to the right */
-    height: auto; 
-    margin-left: 20%; /* Ensure the image stays 10% from the left */
+    text-align: left; 
+    margin-left: 15%; 
 }
 
 .banner-img {
     padding: 0.5em 1em;
-    width: 300px;
+    width: 260px;
+}
+
+.img-banner img {
+    max-width: 100%; 
+    margin-left: 20%; 
 }
 
 .container-btn {
@@ -211,7 +210,7 @@ body {
 .img-pn {
     object-fit: cover;
     margin-left: 60%;
-    margin-top: 5%; /* Position the image 10% down from the current position */
+    margin-top: 5%; 
 }
 
 .img-pn img {
