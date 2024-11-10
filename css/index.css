@@ -208,16 +208,19 @@ body {
     height: 10vh; 
 }
 
-.img-pn{
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover; 
+.img-pn {
+    object-fit: cover;
     margin-left: 60%;
+    margin-top: 5%; /* Position the image 10% down from the current position */
 }
 
+.img-pn img {
+    width: 50%; 
+    height: 50%; 
+}
 
 .btn {
-    padding: 8px 16px; 
+    padding: 16px 32px; 
     background-color: #253A3E;
     color: #F7F7F7; 
     border: none;
