@@ -28,9 +28,16 @@
     </header>
     <div class="login-container">
         <h2>Login</h2>
-        <form>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
+        <form  action="" >
+            
+            <label for="username">*Username:</label>
+            <input type="text" id="username" name="username" >
+            <p id="username-helper" class="helper-text"></p>
+            
+            <label for="senha">*Senha:</label>
+            <input type="password" id="senha" name="senha">
+            <p id="senha-helper" class="helper-text"></p>
+
             <button type="submit">Entrar</button>
         </form>
         <a href="#" class="register-link">Não tem cadastro? Cadastre-se aqui</a>
