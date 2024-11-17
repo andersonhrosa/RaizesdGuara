@@ -1,7 +1,7 @@
 // ---------- função para EMAIL e MENSAGEM  ---------- //
 
 let emailInput = document.getElementById("email");
-let emailLabel = document.querySelector('label[for="text"]');
+let emailLabel = document.querySelector('label[for="email"]');
 let emailHelper = document.getElementById("email-helper");
 
 
