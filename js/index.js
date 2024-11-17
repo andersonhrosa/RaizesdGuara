@@ -19,13 +19,16 @@ function updateBanner() {
 
         if (i === 0) {
             img.style.transform = 'scale(1.2)';
+            img.style.margin = '0 10px';
         } else if (i === -1 || i === 1) {
             img.style.transform = 'scale(1)';
+            img.style.margin = '0 10px';
         } else {
             img.style.transform = 'scale(0.8)';
+            img.style.margin = '0 -35px';
         }
 
-        img.style.margin = '0 10px'; 
+         
 
         banner.appendChild(img);
     }
