@@ -33,7 +33,7 @@ emailInput.addEventListener("change", function (e) {
         emailHelper.classList.add("success");
     } else {
         // Email incorreto
-        emailHelper.innerText = "Insira um e-mail válido!";
+        emailHelper.innerText = "Por favor, insira um e-mail válido que contenha '@' e termine com '.com'";
         emailHelper.classList.remove("success");
         emailHelper.classList.add("error");
         emailHelper.classList.add("visible");

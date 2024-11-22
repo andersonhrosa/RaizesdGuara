@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/login.css">
     <script src="js/login.js" defer></script>
 </head>
+
 <body>
     <header class="menu-header">
         <div class="logo-container">
@@ -26,22 +28,23 @@
             </div>
         </div>
     </header>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form  action="" >
-            
-            <label for="username">*Username:</label>
-            <input type="text" id="username" name="username" >
-            <p id="username-helper" class="helper-text"></p>
-            
-            <label for="senha">*Senha:</label>
-            <input type="password" id="senha" name="senha">
-            <p id="senha-helper" class="helper-text"></p>
-
-            <button type="submit">Entrar</button>
-        </form>
-        <a href="#" class="register-link">Não tem cadastro? Cadastre-se aqui</a>
-    </div>
+    <main class="main-container">
+        <div class="login-container">
+                <div class="form">
+                <h2>Login</h2>
+                <form action="">
+                <label class="label-info" for="username">*Username:</label>
+                <input type="text" id="username" name="username">
+                <p id="username-helper" class="helper-text"></p>
+                <label class="label-info" for="senha">*Senha:</label>
+                <input type="password" id="senha" name="senha">
+                <p id="senha-helper" class="helper-text"></p>
+                <button class="btn-entrar" type="submit">Entrar</button>
+                <a href="#" class="register-link">Não tem cadastro? Cadastre-se aqui</a>
+            </form>
+        </div>
+        </div>
+    </main>
     <footer class="rodape">
         <h2 id="titulo_footer">Raizes d' Guara</h2>
         <a href="#"><img class="icones" src="img/footer/facebook.svg" alt="logo facebook"></a>
@@ -62,4 +65,5 @@
         <p>ProjetoRaizesDGuara ©️ Direitos Reservados. </p>
     </footer>
 </body>
+
 </html>

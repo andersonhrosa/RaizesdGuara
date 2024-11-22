@@ -191,7 +191,8 @@ section p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
     transition: background-color 0.3s ease;
     display: inline-block; 
@@ -240,7 +241,7 @@ section p {
     background-color: #7EACB5;
     color: #2E2E2E;
     text-align: center;
-    padding: 0.5em 0;
+    padding: 2em 0;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -264,7 +265,11 @@ li, a {
 .listas-container {
     display: flex;
     justify-content: space-between; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 
+}
+.listas-container ul li a:hover {
+    color: #fff; 
 }
 
 .lista-rodade_left, .lista-rodade_right {

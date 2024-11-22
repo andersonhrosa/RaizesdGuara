@@ -20,12 +20,15 @@ function updateBanner() {
         if (i === 0) {
             img.style.transform = 'scale(1.2)';
             img.style.margin = '0 10px';
+            img.style.opacity = '1';
         } else if (i === -1 || i === 1) {
             img.style.transform = 'scale(1)';
             img.style.margin = '0 10px';
+            img.style.opacity = '0.8';
         } else {
             img.style.transform = 'scale(0.8)';
             img.style.margin = '0 -35px';
+            img.style.opacity = '0.5';
         }
 
          
