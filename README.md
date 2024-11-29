@@ -23,5 +23,5 @@ Leide Dias
 ### Tabelas 3FN
 (https://drive.google.com/file/d/1HK64TlIEMxHzqg1HEd60AappFaggXdnZ/view?usp=sharing)
 
-### Banco de Dadaos
+### Banco de Dados
 (https://drive.google.com/file/d/1smiMmiJcLsNY4ZOXJYIJtKGusuoNT-iZ/view?usp=sharing)
