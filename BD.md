@@ -75,24 +75,25 @@
 ### Diagrama
 
 ```plaintext
-+-----------------+          +-----------------+          +-----------------+
-|     Cliente     |          |  Distribuidor   |          |     Produto     |
-+-----------------+          +-----------------+          +-----------------+
-| id_cliente (PK) |          | id_distribuidor (PK) |<----| id_produto (PK) |
-| nome            |          | nome            |          | nome            |
-| cpf             |          | cnpj            |          | id_distribuidor (FK) |
-| telefone        |          | telefone        |          | qtd_estoque     |
-| endereco        |          +-----------------+          | valor           |
-+-----------------+                                       +-----------------+
-
-+-----------------+          +-------------------------+
-|     Pedido      |          |     Pedido_Produto      |
-+-----------------+          +-------------------------+
-| id_pedido (PK)  |<---------| id_pedido (PK, FK)      |
-| id_cliente (FK) |          | id_produto (PK, FK)     |
-| valor_total     |          | quantidade              |
-+-----------------+          | valor_pedido            |
-                             +-------------------------+
++-----------------+          +----------------------+                   +----------------------+
+|     Cliente     |          |  Distribuidor        |                   |     Produto          |
++-----------------+          +----------------------+                   +----------------------+
+| id_cliente (PK) |          | id_distribuidor (PK) | <---------------- | id_produto (PK)      |
+| nome            |          | nome                 |                   | nome                 |
+| cpf             |          | cnpj                 |                   | id_distribuidor (FK) |
+| telefone        |          | telefone             |                   | qtd_estoque          |
+| endereco        |          +----------------------+                   | valor                |
++-----------------+                                                     +----------------------+
+             /\                                                               /\
+             ||                                                               \/
+         +-----------------+                               +-------------------------+
+         |     Pedido      |                               |     Pedido_Produto      |
+         +-----------------+                               +-------------------------+
+         | id_pedido (PK)  |  <--------------------------- | id_pedido (PK, FK)      |
+         | id_cliente (FK) |                               | id_produto (PK, FK)     |
+         | valor_total     |                               | quantidade              |
+         +-----------------+                               | valor_pedido            |
+                                                           +-------------------------+
 ```
 
 
