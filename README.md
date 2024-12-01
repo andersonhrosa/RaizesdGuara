@@ -21,7 +21,7 @@ Leide Dias
 [Der](https://app.brmodeloweb.com/#!/publicview/6747aca94a977fcccf61b1c9)
 
 ### Tabelas 3FN
-[Tabelas](https://drive.google.com/file/d/1HK64TlIEMxHzqg1HEd60AappFaggXdnZ/view?usp=sharing)
+[Tabelas](https://github.com/andersonhrosa/RaizesdGuara/blob/main/BD.md)
 
 ### Banco de Dados
 [BD](https://drive.google.com/file/d/1smiMmiJcLsNY4ZOXJYIJtKGusuoNT-iZ/view?usp=sharing)
