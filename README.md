@@ -18,10 +18,10 @@ Leide Dias
 
 
 ### Der
-(https://app.brmodeloweb.com/#!/publicview/6747aca94a977fcccf61b1c9)
+[Der](https://app.brmodeloweb.com/#!/publicview/6747aca94a977fcccf61b1c9)
 
 ### Tabelas 3FN
-(https://drive.google.com/file/d/1HK64TlIEMxHzqg1HEd60AappFaggXdnZ/view?usp=sharing)
+[Tabelas](https://drive.google.com/file/d/1HK64TlIEMxHzqg1HEd60AappFaggXdnZ/view?usp=sharing)
 
 ### Banco de Dados
-(https://drive.google.com/file/d/1smiMmiJcLsNY4ZOXJYIJtKGusuoNT-iZ/view?usp=sharing)
+[BD](https://drive.google.com/file/d/1smiMmiJcLsNY4ZOXJYIJtKGusuoNT-iZ/view?usp=sharing)
